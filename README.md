@@ -1,6 +1,6 @@
 # Aryan Kapur — Personal Portfolio
 
-A responsive, accessible portfolio website based on my updated 2026 resume. The project is **static and dependency-free**: no build step, no npm install, and no API keys.
+A responsive, accessible portfolio website based on Aryan's updated 2026 resume. The project is **static and dependency-free**: no build step, no npm install, and no API keys.
 
 ## What's inside
 
@@ -20,7 +20,19 @@ python3 -m http.server 8000
 
 Then visit http://localhost:8000.
 
-## How I Update The Portfolio
+## Publish the website
+
+### GitHub Pages
+1. Create a public GitHub repository (for example, `portfolio`).
+2. Upload the contents of this folder to the repository's main branch, preserving the `assets/` folder.
+3. In the repository, open **Settings → Pages**.
+4. Under **Build and deployment**, set the source to **Deploy from a branch** and choose **main** / **(root)**.
+5. The site will become available at `https://<username>.github.io/<repository>/` after deployment.
+
+### Netlify
+Drag and drop the entire folder (or ZIP contents) into Netlify's manual deploy interface. The site does not need a build command.
+
+## Personalize it
 
 - Edit your introduction in the `.hero-copy` section of `index.html`.
 - Update project copy and tags in the `.project-card` elements.
